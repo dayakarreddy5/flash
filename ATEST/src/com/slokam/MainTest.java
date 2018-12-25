@@ -19,8 +19,10 @@ public class MainTest {
 	       for (PersonPojo personPojo : values) {
 			
 	    	  String name= personPojo.getName();
+	    	  Integer id=personPojo.getId();
+	    	  String age=personPojo.getAge();
 	    	  
-	    	  System.out.println(name);
+	    	  System.out.println(id+"::"+name+"::"+age);
 		}
 	}
 	

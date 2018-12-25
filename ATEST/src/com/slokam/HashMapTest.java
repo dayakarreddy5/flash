@@ -17,9 +17,17 @@ public class HashMapTest {
 		Map<PersonPojo, Integer> map=new HashMap<>();
 		
 		PersonPojo p=new PersonPojo();
+		p.setId(1);
 		p.setName("daya");
+		p.setAge("24");
+		
+		PersonPojo p1=new PersonPojo();
+		p1.setId(2);
+		p1.setName("shyam");
+		p1.setAge("23");
 		
 		map.put(p, 1);
+		map.put(p1, 2);
 		
 	    return map;
 	}
